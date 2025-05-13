@@ -1,0 +1,39 @@
+/* Styles */
+:root {
+    /* Colors */
+    --clr-primary-100: rgb(250, 250, 250);
+    --clr-primary-300: rgb(209, 209, 223);
+    --clr-primary-600: rgb(135, 135, 157);
+    --clr-primary-900: rgb(40, 40, 61);
+
+    --clr-secondary-300: rgb(217, 184, 255);
+    --clr-secondary-600: rgb(133, 95, 177);
+
+    --clr-tretiary-300: rgb(143, 227, 249);
+    --clr-tretiary-600: rgb(77, 150, 168);
+
+    /* Fonts */
+    --fw-500: 500;
+    --fw-900: 900;
+
+    --fs-64: 4rem;
+    --fs-40: 2.5rem;
+    --fs-18: 1.125rem;
+    --fs-16: 1rem;
+
+    --lh-110: 1.1;
+    --lh-150: 1.5;
+
+    /* Spacing */
+    --sp-112: 7rem;
+    --sp-80: 5rem;
+    --sp-72: 4.5rem;
+    --sp-64: 4rem;
+    --sp-56: 3.5rem;
+    --sp-40: 2.5rem;
+    --sp-32: 2rem;
+    --sp-24: 1.5rem;
+    --sp-16: 1rem;
+    --sp-8: 0.5rem;
+    --sp-4: 0.25rem;
+}

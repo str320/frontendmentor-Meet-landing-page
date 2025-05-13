@@ -1,0 +1,30 @@
+.button {
+    all: unset;
+    padding: 1rem 2.5rem;
+    border-radius: 1.8125rem;
+    font-size: var(--fs-16);
+    font-weight: var(--fw-900);
+    line-height: var(--lh-150);
+    color: var(--clr-primary-100);
+    cursor: pointer;
+}
+
+.button__style--cyan {
+    background-color: var(--clr-tretiary-600);
+}
+
+.button__hover--cyan:hover {
+    background-color: var(--clr-primary-100);
+    border: 1px solid var(--clr-tretiary-600);
+    color: var(--clr-tretiary-600);
+}
+
+.button__style--purple {
+    background-color: var(--clr-secondary-600);
+}
+
+.button__style--purple:hover {
+    background-color: var(--clr-primary-100);
+    border: 1px solid var(--clr-secondary-600);
+    color: var(--clr-secondary-600);
+}
