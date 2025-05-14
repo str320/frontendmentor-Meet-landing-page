@@ -16,3 +16,5 @@
 /* Hero */
 @import url("../common.blocks/hero/_hero.css");
 
+/* Section Details */
+@import url("../common.blocks/section-details/_section-details.css");
