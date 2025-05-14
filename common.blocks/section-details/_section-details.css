@@ -4,8 +4,6 @@
     background-color: var(--clr-primary-100);
 }
 
-.details__block {
-}
 .details__pattern {
     position: absolute;
     top: 3.5rem;
