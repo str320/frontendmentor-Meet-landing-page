@@ -7,6 +7,7 @@
     line-height: var(--lh-150);
     color: var(--clr-primary-100);
     cursor: pointer;
+    z-index: 100;
 }
 
 .button__style--cyan {

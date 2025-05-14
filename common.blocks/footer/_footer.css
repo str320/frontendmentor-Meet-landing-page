@@ -11,16 +11,18 @@
 }
 .footer__container-filter {
     position: absolute;
+    z-index: 10;
     inset: 0;
-    background-color: rgba(77, 150, 168, 0.6);
+    background-color: rgba(77, 150, 168, 0.5);
 }
 .footer__content {
     display: flex;
     align-items: start;
     justify-content: space-between;
-
+    
 }
 .footer__content-title {
+    z-index: 100;
     font-size: var(--fs-40);
     font-weight: var(--fw-900);
     line-height: var(--lh-110);
@@ -28,6 +30,7 @@
 }
 
 .footer__content-text {
+    z-index: 100;
     font-size: var(--fs-18);
     font-weight: var(--fw-500);
     line-height: var(--lh-150);
@@ -35,6 +38,7 @@
     max-width: 22rem;
 }
 .footer__pattern {
+    z-index: 100;
     position: absolute;
     top: 0.5rem;
     left: 50%;
