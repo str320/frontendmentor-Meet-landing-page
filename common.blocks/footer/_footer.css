@@ -13,7 +13,7 @@
     position: absolute;
     z-index: 10;
     inset: 0;
-    background-color: rgba(77, 150, 168, 0.5);
+    background-color: rgba(77, 150, 168, 0.8);
 }
 .footer__content {
     display: flex;
