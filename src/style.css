@@ -7,8 +7,14 @@
 /* Container */
 @import url("../common.blocks/container/_container.css");
 
-/* Navbar */
+/* Navbar Main*/
 @import url("../common.blocks/navbar/_navbar__main.css");
+
+/* Navbar Mobile */
+@import url("../common.blocks/navbar/_navbar__mobile.css");
+
+/* Navbar Media */
+@import url("../common.blocks/navbar/media/_media__navbar.css");
 
 /* Button */
 @import url("../common.blocks/button/_button.css");

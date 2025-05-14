@@ -1,0 +1,14 @@
+@media (width > 768px) {
+    .navbar__mobile-menu {
+        display: none;
+    }
+}
+
+@media (width <=  768px) {
+    .navbar__main-menu {
+        display: none;
+    }
+    .navbar__mobile-menu {
+        display: block;
+    }
+}

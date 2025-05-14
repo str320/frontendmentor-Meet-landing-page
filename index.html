@@ -20,31 +20,37 @@
         <img src="./assets/logo.svg" alt="meet logo">
       </a>
       <!-- Main Menu -->
-      <div class="navbar__main-menu-items">
-        <ul class="navbar__main-menu-list">
-          <li class="navbar__main-menu-item">
-            <a href="./index.html#hero" class="navbar__main-menu-link">Home</a>
-          </li>
-          <li class="navbar__main-menu-item">
-            <a href="./index.html#details" class="navbar__main-menu-link">Details</a>
-          </li>
-          <li class="navbar__main-menu-item">
-            <a href="./index.html#download" class="navbar__main-menu-link">Download</a>
-          </li>
-          <li class="navbar__main-menu-item">
-            <a href="facebook.com" target="_blank" class="navbar__main-menu-link">
-              <i class="fa-brands fa-facebook navbar__main-menu-link-icon"></i>
-            </a>
-          </li>
-          <li class="navbar__main-menu-item">
-            <a href="instagram.com" target="_blank" class="navbar__main-menu-link">
-              <i class="fa-brands fa-instagram navbar__main-menu-link-icon"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+       <div class="navbar__main-menu">
+         <div class="navbar__main-menu-items">
+           <ul class="navbar__main-menu-list">
+             <li class="navbar__main-menu-item">
+               <a href="./index.html#hero" class="navbar__main-menu-link">Home</a>
+             </li>
+             <li class="navbar__main-menu-item">
+               <a href="./index.html#details" class="navbar__main-menu-link">Details</a>
+             </li>
+             <li class="navbar__main-menu-item">
+               <a href="./index.html#download" class="navbar__main-menu-link">Download</a>
+             </li>
+             <li class="navbar__main-menu-item">
+               <a href="facebook.com" target="_blank" class="navbar__main-menu-link">
+                 <i class="fa-brands fa-facebook navbar__main-menu-link-icon"></i>
+               </a>
+             </li>
+             <li class="navbar__main-menu-item">
+               <a href="instagram.com" target="_blank" class="navbar__main-menu-link">
+                 <i class="fa-brands fa-instagram navbar__main-menu-link-icon"></i>
+               </a>
+             </li>
+           </ul>
+         </div>
+       </div>
+
       <!-- Mobile Menu -->
        <div class="navbar__mobile-menu">
+        <div class="navbar__mobile-menu-toggle">
+          <i class="fas fa-bars fa-2x navbar__mobile-menu-toggle-icon"></i>
+        </div>
          <div class="navbar__mobile-menu-items">
            <ul class="navbar__mobile-menu-list">
              <li class="navbar__mobile-menu-item">
@@ -116,6 +122,7 @@ for <span class="hero__content-title--cyan">Everyone</span></h1>
       </div>
      </section>
   </main>
+  <!-- Footer -->
   <footer class="footer" id="download">
     <div class="footer__pattern">
             <div class="footer__pattern-line">
@@ -133,5 +140,6 @@ for <span class="hero__content-title--cyan">Everyone</span></h1>
       </div>
     </div>
   </footer>
+  <script src="./src/main.js"></script>
 </body>
 </html>
