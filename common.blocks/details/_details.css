@@ -2,6 +2,7 @@
     position: relative;
     padding: 12rem 0 4.5rem;
     background-color: var(--clr-primary-100);
+    margin: 0 1rem;
 }
 
 .details__pattern {
@@ -33,7 +34,6 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 0 9.5rem;
     margin: 4rem 0 5rem;
 }
 
