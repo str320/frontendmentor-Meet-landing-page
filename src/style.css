@@ -24,3 +24,6 @@
 
 /* Details Media */
 @import url("../common.blocks/details/media/_media__details.css");
+
+/* Footer */
+@import url("../common.blocks/footer/_footer.css");

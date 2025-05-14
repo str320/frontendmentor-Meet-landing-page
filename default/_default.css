@@ -37,3 +37,6 @@
     --sp-8: 0.5rem;
     --sp-4: 0.25rem;
 }
+body {
+    font-family: "Red Hat Display";
+}
