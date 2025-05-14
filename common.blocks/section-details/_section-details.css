@@ -1,11 +1,16 @@
 .details {
-    padding: 3.5rem 0 4.5rem;
+    position: relative;
+    padding: 11rem 0 4.5rem;
     background-color: var(--clr-primary-100);
 }
 
+.details__block {
+}
 .details__pattern {
+    position: absolute;
+    top: 3.5rem;
+    left: 50%;
     text-align: center;
-    padding: 0 0 4rem;
 }
 
 .details__pattern-line {
