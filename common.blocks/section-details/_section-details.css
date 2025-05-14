@@ -34,7 +34,7 @@
     justify-content: center;
     gap: 2rem;
     padding: 0 9.5rem;
-    margin: 4rem 0 4.5rem;
+    margin: 4rem 0 5rem;
 }
 
 
@@ -60,7 +60,7 @@
 }
 
 .details__content {
-    max-width: 31rem;
+    max-width: 32rem;
     text-align: center;
     margin: 0 auto;
 }
