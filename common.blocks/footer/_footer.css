@@ -5,7 +5,7 @@
 }
 
 .footer__container {
-    background:  url("/assets/desktop/image-footer.jpg") center center/cover;
+    background: linear-gradient(rgba(77 150 168 / 80%)), url("/assets/desktop/image-footer.jpg") center center/cover;
     
     padding: 7rem 5rem;
 }
