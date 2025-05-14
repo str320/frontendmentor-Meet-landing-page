@@ -27,3 +27,6 @@
 
 /* Footer */
 @import url("../common.blocks/footer/_footer.css");
+
+/* Footer Media */
+@import url("../common.blocks/footer/media/_media__footer.css");

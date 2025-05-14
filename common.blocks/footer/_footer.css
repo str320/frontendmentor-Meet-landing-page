@@ -1,42 +1,49 @@
 .footer {
     position: relative;
     background-color: var(--clr-primary-100);
-    padding: 7rem 0 0;
+    padding: 7rem 0 1rem;
 }
 
 .footer__container {
     position: relative;
     background: url("/assets/desktop/image-footer.jpg") center center/cover;
-    padding: 7rem 5rem;
+    padding-block: 7rem;
 }
+
 .footer__container-filter {
     position: absolute;
     z-index: 10;
     inset: 0;
     background-color: rgba(77, 150, 168, 0.8);
 }
+
 .footer__content {
     display: flex;
     align-items: start;
-    justify-content: space-between;
-    
+    justify-content: center;
+    gap: 2rem;
 }
-.footer__content-title {
+
+.footer__details {
     z-index: 100;
+}
+
+.footer__content-title {
     font-size: var(--fs-40);
     font-weight: var(--fw-900);
     line-height: var(--lh-110);
     color: var(--clr-primary-100);
+    margin: 0 0 1rem;
 }
 
 .footer__content-text {
-    z-index: 100;
     font-size: var(--fs-18);
     font-weight: var(--fw-500);
     line-height: var(--lh-150);
     color: var(--clr-primary-100);
-    max-width: 22rem;
+    max-width: 30rem;
 }
+
 .footer__pattern {
     z-index: 100;
     position: absolute;
@@ -51,6 +58,7 @@
     height: 80px;
     background-color: var(--clr-primary-600);
 }
+
 .footer__pattern-circle {
     position: absolute;
     top: 80px;
