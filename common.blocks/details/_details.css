@@ -3,7 +3,7 @@
     background-color: var(--clr-primary-100);
 }
 .details__container {
-    padding: 12rem 1rem 4.5rem;
+    padding: 12rem 0 4.5rem;
 }
 
 .details__pattern {
