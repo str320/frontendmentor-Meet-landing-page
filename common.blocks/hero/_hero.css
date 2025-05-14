@@ -1,5 +1,5 @@
 .hero {
-    padding: 6rem 0rem 4rem;
+    padding: 8rem 0rem 4rem;
     background-color: var(--clr-tretiary-300);
 }
 
@@ -9,6 +9,10 @@
     align-items: center;
     gap: 2rem;
     text-align: center;
+}
+
+.hero__image-right {
+    padding-left: 5rem;
 }
 
 .hero__content-title {
