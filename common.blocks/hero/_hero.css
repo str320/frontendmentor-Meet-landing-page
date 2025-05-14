@@ -1,5 +1,5 @@
 .hero {
-    padding: 13rem 0rem 3.5rem;
+    padding: 13.5rem 0rem 4rem;
     background-color: var(--clr-tretiary-300);
 }
 
@@ -25,7 +25,7 @@
     font-weight: var(--fw-900);
     line-height: var(--lh-110);
     color: var(--clr-primary-900);
-    margin: 0 0 1.7rem;
+    margin: 0 0 1.8rem;
 }
 
 .hero__content-title--cyan {
@@ -37,7 +37,7 @@
     font-weight: var(--fw-500);
     line-height: var(--lh-150);
     color: var(--clr-primary-900);
-    margin: 0 0 1.7rem;
+    margin: 0 0 1.8rem;
 }
 
 .hero__buttons {
