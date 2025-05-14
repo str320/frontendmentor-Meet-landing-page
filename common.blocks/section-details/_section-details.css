@@ -28,8 +28,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
+    padding: 0 9.5rem;
     margin: 4rem 0;
 }
 
@@ -47,7 +48,6 @@
 }
 
 .details__img {
-    justify-self: center;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
